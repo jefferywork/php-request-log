@@ -1,0 +1,22 @@
+{
+    "name": "jefferywork/php-request-log",
+    "description": "Request log collection",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Jefferywork\\PhpRequestLog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "libin",
+            "email": "libinjob@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
